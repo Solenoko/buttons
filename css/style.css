@@ -1,0 +1,36 @@
+/*Importing fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;700");
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+
+/* General for fonts and colors */
+body {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Open-sans, sans-serif;
+}
+h1 {
+  color: aliceblue;
+  font-family: Raleway, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+}
+p {
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+a {
+  text-decoration: none;
+  unicode-bidi: isolate;
+  margin: 0 10px;
+}
+
+.text-center {
+  text-align: center;
+}
